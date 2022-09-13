@@ -37,30 +37,29 @@ jQuery(function () {
 
   // SLIDER 2 --->
   $('.rev_slider').slick({
-    arrows: true,
+    arrows: false,
     infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: false,
     prevArrow: "<div class='prev2'>&lsaquo;</div>",
     nextArrow: "<div class='next2'>&rsaquo;</div>",
-    // autoplay: true,
-    // autoplaySpeed: 2000,
+    fade: true,
     infinite: true,
     asNavFor: '.rev_slider-2',
   });
   $('.rev_slider-2').slick({
     arrows: true,
     infinite: false,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    dots: false,
     prevArrow: "<div class='prev2'>&lsaquo;</div>",
     nextArrow: "<div class='next2'>&rsaquo;</div>",
     // autoplay: true,
     // autoplaySpeed: 2000,
     infinite: true,
     asNavFor: '.rev_slider',
+    dots: true,
   });
 
   // SLIDER 2 <---

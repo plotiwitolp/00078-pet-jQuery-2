@@ -33,7 +33,7 @@
   <main class="main">
     <div class="container">
       <div class="main__wrapper">
-        <h1>First title</h1>
+        <h1>My slider on jQuery</h1>
         <div class="slider-1">
           <div class="slider-1__viewport">
             <div class="slider-1__viewport-wrapper">
@@ -53,20 +53,8 @@
           </div>
         </div>
       </div>
-      <h1>Second title</h1>
-      <div class="content-1">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit accusantium tempora qui earum aspernatur libero similique, error quam quo hic porro doloribus rerum provident eligendi, ducimus architecto nam officia maiores.
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit accusantium tempora qui earum aspernatur libero similique, error quam quo hic porro doloribus rerum provident eligendi, ducimus architecto nam officia maiores.
-        </p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit accusantium tempora qui earum aspernatur libero similique, error quam quo hic porro doloribus rerum provident eligendi, ducimus architecto nam officia maiores.
-        </p>
-      </div>
-      <h1>Third title</h1>
-      <div class="content-2">
+      <h1>My slider on jQuery with Slick</h1>
+      <div class="content">
         <div class="rev_slider">
           <div class="slide">
             <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
@@ -76,7 +64,7 @@
             <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quaerat odio non consectetur illo? </div>
           </div>
           <div class="slide">
-            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="photo" style="background-image: url(https://get.pxhere.com/photo/person-people-portrait-facial-expression-hairstyle-smile-emotion-portrait-photography-134689.jpg);"></div>
             <div class="name">
               <h2>John 2</h2>
             </div>
@@ -128,7 +116,7 @@
             </div>
           </div>
           <div class="slide">
-            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="photo" style="background-image: url(https://get.pxhere.com/photo/person-people-portrait-facial-expression-hairstyle-smile-emotion-portrait-photography-134689.jpg);"></div>
             <div class="name">
               <h2>John 2</h2>
             </div>

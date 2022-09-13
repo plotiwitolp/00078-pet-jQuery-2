@@ -196,12 +196,16 @@ p {
   padding: 10px;
 }
 
-.content-2 {
+.content {
   border: 1px solid #cbcbcb;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
+.rev_slider,
+.rev_slider-2 {
+  padding: 15px;
+}
 .rev_slider .photo,
 .rev_slider-2 .photo {
   width: 80px;
@@ -215,6 +219,8 @@ p {
 .rev_slider-2 .slide {
   padding: 60px;
   cursor: pointer;
+  border: 1px solid #c9c9c9;
+  padding: 20px;
 }
 .rev_slider .prev2,
 .rev_slider .next2,
@@ -237,4 +243,27 @@ p {
 .rev_slider [aria-disabled=true],
 .rev_slider-2 [aria-disabled=true] {
   color: #cbcbcb;
+}
+
+ul.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  bottom: -55px;
+  left: 0;
+}
+
+li button {
+  width: 50px;
+  height: 50px;
+  background-color: #777;
+  border-radius: 50%;
+  cursor: pointer;
 }
