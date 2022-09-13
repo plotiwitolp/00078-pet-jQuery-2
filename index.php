@@ -32,12 +32,18 @@
   <main class="main">
     <div class="container">
       <div class="main__wrapper">
+        <h1>First title</h1>
         <div class="slider-1">
           <div class="slider-1__viewport">
             <div class="slider-1__viewport-wrapper">
-              <div class="slider-1__item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere obcaecati asperiores, quam cupiditate ducimus dolorum maiores! Quae nobis distinctio, pariatur praesentium animi cupiditate vero sint minus quia autem velit qui.</div>
-              <div class="slider-1__item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere obcaecati asperiores, quam cupiditate ducimus dolorum maiores! Quae nobis distinctio, pariatur praesentium animi cupiditate vero sint minus quia autem velit qui.</div>
-              <div class="slider-1__item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere obcaecati asperiores, quam cupiditate ducimus dolorum maiores! Quae nobis distinctio, pariatur praesentium animi cupiditate vero sint minus quia autem velit qui.</div>
+              <div class="slider-1__item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere obcaecati asperiores, quam cupiditate ducimus dolorum maiores! Quae nobis distinctio, pariatur praesentium animi cupiditate vero sint minus quia autem velit qui.
+              </div>
+              <div class="slider-1__item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere obcaecati asperiores, quam cupiditate ducimus dolorum maiores! Quae nobis distinctio, pariatur praesentium animi cupiditate vero sint minus quia autem velit qui.
+              </div>
+              <div class="slider-1__item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere obcaecati asperiores, quam cupiditate ducimus dolorum maiores! Quae nobis distinctio, pariatur praesentium animi cupiditate vero sint minus quia autem velit qui.
+              </div>
+              <div class="slider-1__item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere obcaecati asperiores, quam cupiditate ducimus dolorum maiores! Quae nobis distinctio, pariatur praesentium animi cupiditate vero sint minus quia autem velit qui.
+              </div>
             </div>
           </div>
           <div class="controller">
@@ -45,6 +51,18 @@
             <span class="controller__next">&rsaquo;</span>
           </div>
         </div>
+      </div>
+      <h1>Second title</h1>
+      <div class="content-1">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit accusantium tempora qui earum aspernatur libero similique, error quam quo hic porro doloribus rerum provident eligendi, ducimus architecto nam officia maiores.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit accusantium tempora qui earum aspernatur libero similique, error quam quo hic porro doloribus rerum provident eligendi, ducimus architecto nam officia maiores.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit accusantium tempora qui earum aspernatur libero similique, error quam quo hic porro doloribus rerum provident eligendi, ducimus architecto nam officia maiores.
+        </p>
       </div>
   </main>
   <footer class="footer">

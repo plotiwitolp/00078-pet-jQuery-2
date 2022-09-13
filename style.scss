@@ -43,7 +43,6 @@ $clr0: #212121;
 $clr1: #3e3e3e;
 $clr2: #cbcbcb;
 $clr3: #ffffff;
-
 body {
   display: flex;
   flex-direction: column;
@@ -51,12 +50,12 @@ body {
 main {
   flex: 1 0 auto;
 }
-
 .container {
   width: 720px;
   margin: 0 auto;
 }
 .header {
+  font-size: 22px;
 }
 .header__wrapper {
   display: flex;
@@ -94,7 +93,10 @@ main {
 }
 .slider-1__viewport-wrapper {
   display: flex;
-  width: calc(100% * 3);
+  // width: calc(100% * 3);
+  position: relative;
+  left: 0%;
+  transition: left 0.5s ease 0s;
 }
 .slider-1__item {
   height: 200px;
@@ -109,13 +111,6 @@ main {
   font-size: 64px;
   left: -3%;
 }
-.controller__prev {
-  left: 0;
-}
-.controller__next {
-  right: 0;
-}
-
 .controller__next,
 .controller__prev {
   position: absolute;
@@ -127,11 +122,33 @@ main {
   text-align: center;
   line-height: 52px;
   cursor: pointer;
+  user-select: none;
+  transition: transform 0.3s ease 0s;
 }
+.controller__next:hover,
+.controller__prev:hover {
+  transform: scale(1.1);
+}
+
+.controller__prev {
+  left: 0;
+  color: $clr2;
+}
+.controller__next {
+  right: 0;
+}
+
 .footer__wrapper {
   height: 200px;
   background-color: $clr1;
   color: $clr3;
   padding: 20px 10px;
   border-radius: $br1;
+}
+h1 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+p {
+  padding: 10px;
 }
