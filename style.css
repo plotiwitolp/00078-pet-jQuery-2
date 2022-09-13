@@ -40,7 +40,10 @@ body {
 }
 
 /*----------------*/
-.header-menu__item a, .header-menu {
+.rev_slider .prev2,
+.rev_slider .next2,
+.rev_slider-2 .prev2,
+.rev_slider-2 .next2, .header-menu__item a, .header-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,12 +139,12 @@ main {
   width: 106%;
   position: absolute;
   top: calc(50% - 35px);
-  font-size: 64px;
   left: -3%;
 }
 
 .controller__next,
 .controller__prev {
+  font-size: 64px;
   position: absolute;
   height: 70px;
   width: 70px;
@@ -191,4 +194,47 @@ h1 {
 
 p {
   padding: 10px;
+}
+
+.content-2 {
+  border: 1px solid #cbcbcb;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.rev_slider .photo,
+.rev_slider-2 .photo {
+  width: 80px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.rev_slider .slide,
+.rev_slider-2 .slide {
+  padding: 60px;
+  cursor: pointer;
+}
+.rev_slider .prev2,
+.rev_slider .next2,
+.rev_slider-2 .prev2,
+.rev_slider-2 .next2 {
+  font-size: 64px;
+  position: absolute;
+  top: 30%;
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+  cursor: pointer;
+  z-index: 1;
+  color: #212121;
+}
+.rev_slider .next2,
+.rev_slider-2 .next2 {
+  right: 0;
+}
+.rev_slider [aria-disabled=true],
+.rev_slider-2 [aria-disabled=true] {
+  color: #cbcbcb;
 }

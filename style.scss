@@ -108,11 +108,11 @@ main {
   width: 106%;
   position: absolute;
   top: calc(50% - 35px);
-  font-size: 64px;
   left: -3%;
 }
 .controller__next,
 .controller__prev {
+  font-size: 64px;
   position: absolute;
   height: 70px;
   width: 70px;
@@ -151,4 +151,43 @@ h1 {
 }
 p {
   padding: 10px;
+}
+.content-2 {
+  border: 1px solid $clr2;
+  border-radius: $br1;
+  margin-bottom: 20px;
+}
+.rev_slider,
+.rev_slider-2 {
+  .photo {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  .slide {
+    padding: 60px;
+    cursor: pointer;
+  }
+  .prev2,
+  .next2 {
+    font-size: 64px;
+    position: absolute;
+    top: 30%;
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+    cursor: pointer;
+    @extend %center;
+    z-index: 1;
+    color: $clr0;
+  }
+  .next2 {
+    right: 0;
+  }
+  [aria-disabled='true'] {
+    color: $clr2;
+  }
 }

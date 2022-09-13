@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>00078-pet-jQuery-2</title>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="./style.css" />
 </head>
 
@@ -64,6 +65,105 @@
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit accusantium tempora qui earum aspernatur libero similique, error quam quo hic porro doloribus rerum provident eligendi, ducimus architecto nam officia maiores.
         </p>
       </div>
+      <h1>Third title</h1>
+      <div class="content-2">
+        <div class="rev_slider">
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 1</h2>
+            </div>
+            <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quaerat odio non consectetur illo? </div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 2</h2>
+            </div>
+            <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quaerat odilat ipsam rem nihil. Ducimus?</div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 3</h2>
+            </div>
+            <div class="text">Lorem ipsum dolor, sit amet cat ipsam rem nihil. Ducimus?</div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 4</h2>
+            </div>
+            <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis quaerat odio non consectetur illo?m rem nihil. Ducimus?</div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 5</h2>
+            </div>
+            <div class="text">Lorem ipsum dolor repellat ipsam rem nihil. Ducimus?</div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 6</h2>
+            </div>
+            <div class="text">Lorem ipsum dolor,
+            </div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 7</h2>
+            </div>
+            <div class="text">Lorem ipsum dolor,asd a
+            </div>
+          </div>
+        </div>
+        <div class="rev_slider-2">
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 1</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 2</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 3</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 4</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 5</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 6</h2>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="photo" style="background-image: url(https://i.ebayimg.com/00/s/MTAwMFg3ODQ=/z/BMwAAOSwNcReLQZN/$_57.JPG?set_id=8800005007);"></div>
+            <div class="name">
+              <h2>John 7</h2>
+            </div>
+          </div>
+        </div>
   </main>
   <footer class="footer">
     <div class="container">
@@ -73,6 +173,8 @@
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
   <script src="./script.js"></script>
 </body>
 
