@@ -1,11 +1,9 @@
 jQuery(function () {
-  //
   let $clr0 = '#212121';
   let $clr1 = '#3e3e3e';
   let $clr2 = '#cbcbcb';
   let $clr3 = '#ffffff';
 
-  //SLIDER 1 --->
   const controller1 = $('.slider-1 .controller');
   const viewport1wrapper = $('.slider-1__viewport-wrapper');
   const sliderItems = $('.slider-1__item');
@@ -33,9 +31,7 @@ jQuery(function () {
       }
     }
   });
-  // <--- SLIDER 1
 
-  // SLIDER 2 --->
   $('.rev_slider').slick({
     arrows: false,
     infinite: false,
@@ -59,7 +55,4 @@ jQuery(function () {
     asNavFor: '.rev_slider',
     dots: true,
   });
-
-  // SLIDER 2 <---
-  //
 });
