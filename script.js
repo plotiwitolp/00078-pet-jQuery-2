@@ -55,8 +55,6 @@ jQuery(function () {
     slidesToScroll: 1,
     prevArrow: "<div class='prev2'>&lsaquo;</div>",
     nextArrow: "<div class='next2'>&rsaquo;</div>",
-    // autoplay: true,
-    // autoplaySpeed: 2000,
     infinite: true,
     asNavFor: '.rev_slider',
     dots: true,
